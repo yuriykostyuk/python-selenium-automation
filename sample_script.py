@@ -3,11 +3,11 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # init driver
-<<<<<<< HEAD
+
 driver = webdriver.Chrome(executable_path="/Users/yuriykostyuk/Desktop/git/jobeasy/python-selenium-automation/chromedriver")
-=======
-driver = webdriver.Chrome()
->>>>>>> 0180ad2ee428ba86c32cc0ca64ab53c1f991f44d
+
+
+
 driver.maximize_window()
 
 # open the url
